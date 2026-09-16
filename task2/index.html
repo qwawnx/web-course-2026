@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Научное направление ММФ БГУ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <header class="site-header">
+      <div class="header__inner container">
+        <a class="brand" href="#hero">
+          <img class="brand__logo" src="img/logo.png" alt="Логотип научного направления — пчела">
+          <span class="brand__text">Научное направление</span>
+        </a>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <ul class="nav__links">
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#events">Мероприятия</a></li>
+            <li><a href="#stats">Достижения</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <button class="nav__toggle" type="button" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__inner container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Ближайшее мероприятие · 8 октября</p>
+            <h1 class="hero__title">Tour de Mehmat</h1>
+            <p class="hero__subtitle">
+              Интеллектуальная гонка для команд всего факультета. Решай задачи на
+              скорость, обходи соперников на каждом вираже и финишируй первым.
+            </p>
+            <div class="hero__meta">
+              <span class="badge badge--accent">8 октября</span>
+              <span class="badge badge--outline-light">Команды 3–5 человек</span>
+            </div>
+            <a class="btn btn--primary" href="#contact">Хочу на старт</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <h2 class="section-title">О направлении</h2>
+        <p class="about__text">
+          Научное направление — это про то, что математика способна быть не только
+          предметом в расписании, но и поводом для азарта. Мы придумываем и проводим
+          для факультета мероприятия на стыке интеллекта и шоу: гонки на скорость,
+          музыкальные баттлы с формулами, турнирные сетки на вылет и хакатоны
+          с индустриальными партнёрами. За кулисами — команда из 20+ увлечённых
+          организаторов, которая тестирует каждую задачу по несколько раз, чтобы
+          участникам оставалось только одно — получать удовольствие от процесса.
+        </p>
+      </section>
+
+      <section class="stats container" id="stats">
+        <h2 class="section-title">Направление в цифрах</h2>
+        <div class="stats__grid">
+          <div class="stat-card">
+            <span class="stat-card__number">95%</span>
+            <span class="stat-card__label">участников ставят мероприятиям 9 и 10 из 10</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">4</span>
+            <span class="stat-card__label">уникальных формата мероприятий каждый год</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">20+</span>
+            <span class="stat-card__label">организаторов в команде направления</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">1200+</span>
+            <span class="stat-card__label">студентов прошли через наши мероприятия</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="events container" id="events">
+        <h2 class="section-title">Наши мероприятия</h2>
+        <p class="section-subtitle">Четыре формата — один азарт</p>
+
+        <div class="events__grid">
+
+          <article class="event-card">
+            <div class="event-card__media">
+              <img src="img/events/tour-de-mehmat.jpg" alt="Участники Tour de Mehmat решают задачи на скорость">
+            </div>
+            <div class="event-card__body">
+              <h3 class="event-card__title">Tour de Mehmat</h3>
+              <p class="event-card__text">
+                Командное соревнование по решению математических задач на скорость.
+                Каждый раунд — новый вираж сложности, а на финише призы получают
+                только самые быстрые и точные.
+              </p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-card__media">
+              <img src="img/events/math-and-bass.jpg" alt="Шоу-программа Math&Bass с живым звуком">
+            </div>
+            <div class="event-card__body">
+              <h3 class="event-card__title">Math&amp;Bass</h3>
+              <p class="event-card__text">
+                Математика встречается с живым звуком: яркие тематические раунды,
+                харизматичные ведущие и шоу-программа, в которой считать приходится
+                не только формулы, но и биты.
+              </p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-card__media">
+              <img src="img/events/bee-games.jpg" alt="Турнирная сетка Пчелиных игр">
+            </div>
+            <div class="event-card__body">
+              <h3 class="event-card__title">Пчелиные игры</h3>
+              <p class="event-card__text">
+                Турнирная сетка на вылет в дуо- и командном форматах. Кто быстрее
+                жмёт на кнопку и точнее отвечает — тот и летит дальше по сетке
+                до самого финала.
+              </p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-card__media">
+              <img src="img/events/hackathon.jpg" alt="Хакатон с партнёрами Т-Банк и Innowise">
+            </div>
+            <div class="event-card__body">
+              <h3 class="event-card__title">Лекции и хакатоны</h3>
+              <p class="event-card__text">
+                Встречи с топовыми технологическими компаниями — Т-Банк, Innowise
+                и другими: живые лекции, разбор реальных кейсов и хакатоны для тех,
+                кто хочет попробовать себя в деле.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <div class="contact__intro">
+          <h2 class="section-title">Свяжитесь с нами</h2>
+          <p class="section-subtitle">
+            Хотите попасть на мероприятие, вступить в команду или предложить
+            партнёрство — напишите нам, и мы ответим в течение дня.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-field">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Как к вам обращаться">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com">
+          </div>
+
+          <div class="form-field form-field--wide">
+            <label for="topic">Тема обращения</label>
+            <select id="topic">
+              <option>Хочу на мероприятие</option>
+              <option>Хочу в команду</option>
+              <option>Хочу стать партнёром</option>
+              <option>Другое</option>
+            </select>
+          </div>
+
+          <div class="form-field form-field--wide">
+            <label for="message">Сообщение</label>
+            <textarea id="message" rows="4" placeholder="Расскажите подробнее..."></textarea>
+          </div>
+
+          <button class="btn btn--primary form-field--wide" type="button">Отправить</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer__inner container">
+        <a class="brand brand--footer" href="#hero">
+          <img class="brand__logo" src="img/logo.png" alt="">
+          <span class="brand__text">Научное направление ММФ БГУ</span>
+        </a>
+
+        <div class="footer__contacts">
+          <a href="mailto:nauchka@mmf.bsu.by">nauchka@mmf.bsu.by</a>
+          <a href="https://t.me/nauchka_mmf" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://vk.com/nauchka_mmf" target="_blank" rel="noopener">VK</a>
+        </div>
+
+        <p class="footer__copy">© 2026 Научное направление ММФ БГУ. Сделано с любовью к математике и шоу.</p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>

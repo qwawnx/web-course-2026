@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f5f7; }
+.app { max-width: 360px; margin: 40px auto; padding: 24px; background: #fff; border-radius: 12px; text-align: center; }
+.status { min-height: 1.4em; font-weight: bold; }
+.board { display: grid; grid-template-columns: repeat(2, 140px); gap: 12px; justify-content: center; margin: 24px 0; }
+.board.locked { pointer-events: none; }
+.pad { height: 140px; border: 0; border-radius: 16px; opacity: 0.5; cursor: pointer; transition: opacity 0.1s, transform 0.1s; }
+.pad.lit { opacity: 1; transform: scale(1.05); }
+.green { background: #43a047; }
+.red { background: #e53935; }
+.yellow { background: #fdd835; }
+.blue { background: #1e88e5; }
+#start { padding: 12px 28px; font-size: 18px; cursor: pointer; }
+#start:disabled { cursor: not-allowed; }
